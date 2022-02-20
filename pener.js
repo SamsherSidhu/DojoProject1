@@ -1,7 +1,7 @@
 function gotosite() {
     for(let i = 1;i < 100;i++){
         if(i != 69){
-            alert("AHHHEYUL AHHHHEYUL x" + i);
+            alert("ur short x" + i);
         }else{
             alert("(nice!)");
         }
