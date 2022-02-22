@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CTC Office Module</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="row">
+        <div class="column left">
+            <h1>Schedule</h1>
+            <button id="press" onclick="test()">hey press this</button>
+        </div>
+        <div class="column middle">
+            <h1>Blue Line</h1>
+            <button id="press" onclick="test()">hey press this</button>
+        </div>
+        <div class="column right">
+            <h1>Dispatched</h1>
+            <button id="press" onclick="test()">hey press this</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+------------------------------------
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+  text-align: center;
+}
+
+.middle {
+  width: 50%;
+  text-align: center;
+}
